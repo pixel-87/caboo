@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*$py.class
+result/
+
+# Environments
+.env
+.envrc
+.venv/
+env/
+venv/
+.python-version
+
+# Tooling caches
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.dmypy.json
+dmypy.json
+
+# Nix/Direnv
+.direnv/
+
+# OS specific
+.DS_Store
