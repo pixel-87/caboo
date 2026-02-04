@@ -5,7 +5,7 @@
   python3,
   uv,
   ruff,
-  pyright,
+  ty,
 }:
 let
   defaultPackage = callPackage ./default.nix { };
@@ -15,6 +15,6 @@ mkShellNoCC {
   (python3.withPackages (ps: defaultPackage.propagatedBuildInputs))
   ruff
   uv
-  pyright
+  ty
   ];
 }

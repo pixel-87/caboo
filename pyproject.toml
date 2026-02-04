@@ -22,15 +22,7 @@ select = ["E", "F", "I"]
 
 fix = true
 
-indent-style = "space"
-
 indent-width = 4
 
-[tool.pyright]
-include ["src"]
-
-typeCheckMode = "strict"
-
-executionEnvironments = [
-  {root = "src" }
-]
+[tool.ty.environment]
+python-version = "3.13"
